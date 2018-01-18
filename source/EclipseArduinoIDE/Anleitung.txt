@@ -1,0 +1,30 @@
+I: Aufsetzen der Eclipse IDE mit Arduino Support:
+I.1. Download und installiere die neuste Arduino IDE
+https://www.arduino.cc/en/main/software
+
+I.2. Download und installiere die neuste Teensyduino IDE (Erweiterung für Arduino IDE) - Bitte auf Kompatibilität achten zur Arduino IDE (in Release Notes)
+https://www.pjrc.com/teensy/td_download.html
+
+I.3. Download und installiere die neuste EclipseArduino IDE (kein Plugin - Standalone Version!)
+http://eclipse.baeyens.it/stable.php?OS=Windows
+
+I.4. Starte die EclipseArduino IDE und wähle Window -> Preferences aus
+I.5. Wähle Reiter "Arduino" aus
+I.6. Unter "Private hardware path" füge dne Pfad zum Hardware Ordner vom Teensy aus, zum Beispiel:
+C\:Program Files (x86)\Arduino1.8.1\hardware\teensy
+I.7. Klick Apply! und dann OK
+
+II: Neues Projekt Erstellen
+II.1. File -> New -> New Arduino sketch 
+II.2. Projektnamen eingeben -> Next >
+II.3. Wähle die teensy boards.txt aus
+II.3.1. Board Teensy 3.2/3.1
+II.3.2. Port - Leer falls Teensy nicht angeschlossen
+II.3.3. USB Type: Serial
+II.3.4. CPU Speed: (98 MHz (overclock))
+II.3.5.	Keyboard Layout: German
+II.3.6. Optimize: Fast
+II.3.7 Finish 
+II.4. Warten bis C/C++ Indexer und Build durchlaufen wurde
+
+III. Bestehendes Projekt öffnen
