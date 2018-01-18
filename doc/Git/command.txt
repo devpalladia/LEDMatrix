@@ -1,0 +1,19 @@
+New User - Please add your credentials: 
+1. git config --global user.email "<YOUR EMAIL>"
+2. git config --global user.name "<YOUR NAME>"
+
+Adding content to git server
+1. Check if code is working!
+2. git add <Specific File>
+or everything (new and modified) 
+2. git add .
+or (only modified)
+2. git add -u 
+3. git status
+<- Check what you are doing with this command!
+4. After add: Commit your local changes to your local branch (master) repo
+4. git commit -m "<Message of your changes>"
+5. If Editor pops up (Using the command git commit) Modify, leave one blank row between message and appendend text! And Exit Editor using ":wq"
+5. Upload your changes to remote server
+5. git push origin master
+6. Done (?)
